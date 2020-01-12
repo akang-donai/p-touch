@@ -11,5 +11,6 @@ sudo apt install lib32z1 -y
 cd Downloads/
 wget https://download.brother.com/welcome/dlfp100274/ptp900lpr-1.0.0-0.i386.deb
 wget https://download.brother.com/welcome/dlfp100276/ptp900cupswrapper-1.0.0-0.i386.deb
+mkdir /var/spool/lpd
 sudo dpkg -i --force-all ptp900lpr-1.0.0-0.i386.deb
 sudo dpkg -i --force-all ptp900cupswrapper-1.0.0-0.i386.deb
