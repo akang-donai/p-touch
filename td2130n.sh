@@ -16,4 +16,4 @@ sudo dpkg -i --force-all td2130nlpr-1.0.1-0.i386.deb
 sudo dpkg -i --force-all td2130ncupswrapper-1.0.1-0.i386.deb
 
 # Creating label size
-brpapertoollpr_td2130n -P TD-2130N -n RSMENTARI -w 50 -h 60 -g 3.0 -b 3 -t 3 -r 1.5 -l 1.5 -S 1 -m 0.0 -o 0.0
+brpapertoollpr_td2130n -P TD-2130N -n RSMENTARI -w 50 -h 20 -g 3.0 -b 3 -t 3 -r 1.5 -l 1.5 -S 1 -m 0.0 -o 0.0
